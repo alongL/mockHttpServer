@@ -8,3 +8,11 @@ I add the Http header print
 listen on :8080 and print content  send from client.
 Used for http debug.
 
+
+# how to use it 
+go build .
+./mockHttpServer 
+
+then you can sen content to :8080 via http protocal
+
+
